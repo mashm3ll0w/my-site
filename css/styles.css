@@ -1,8 +1,9 @@
 body {
   font-family: "Lato", sans-serif;
   background-color: #F1FAEE;
-  padding: 50px 70px;
+  padding: 50px 70px 0px;
   color: #400150;
+  margin: 0;
   /* max-width: 80%; */
   /* overflow: hidden; */
 }
@@ -37,7 +38,8 @@ a:visited {
 #main-content {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  gap: 10rem;
+  margin-top: 40px;
 }
 
 .name{
@@ -60,7 +62,9 @@ a:visited {
 
 .tagline {
   font-size: 1.5rem;
-  margin-top: 2.5rem;
+  margin: 2.5rem 0 0;
 }
+
+
 
 
