@@ -38,7 +38,8 @@ a:visited {
 .main-content {
   display: flex;
   flex-direction: row;
-  gap: 10rem;
+  /* gap: 10rem; */
+  justify-content: space-between;
   margin-top: 40px;
 }
 
@@ -65,6 +66,17 @@ a:visited {
   margin: 2.5rem 0 0;
 }
 
+.social-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 1.5rem;
+}
+
+.social-icons:hover{
+  scale: 1.05;
+}
 
 
 
