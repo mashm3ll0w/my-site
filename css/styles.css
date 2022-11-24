@@ -1,5 +1,33 @@
 body {
   font-family: "Lato", sans-serif;
   background-color: #F1FAEE;
-  padding: 50px 75px;
+  padding: 30px 50px;
+  color: #400150;
+}
+
+.heading-name {
+  font-weight: normal;
+  font-size: 1.5rem;
+}
+
+#links {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 2.25rem;
+  font-size: 1.25rem;
+  margin-top: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: #400150;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+a:visited {
+  color: #400150;
 }
